@@ -105,10 +105,10 @@ set-env GDAL_LIBRARY_PATH "$APP_VENDOR/lib"
 set-env PROJ4_LIBRARY_PATH "$APP_VENDOR/lib"
 set-env GDAL_DATA "$APP_VENDOR/share/gdal"
 
-export GEOS_LIBRARY_PATH "$APP_VENDOR/lib"
-export GDAL_LIBRARY_PATH "$APP_VENDOR/lib"
-export PROJ4_LIBRARY_PATH "$APP_VENDOR/lib"
-export GDAL_DATA "$APP_VENDOR/share/gdal"
+export GEOS_LIBRARY_PATH="$APP_VENDOR/lib"
+export GDAL_LIBRARY_PATH="$APP_VENDOR/lib"
+export PROJ4_LIBRARY_PATH="$APP_VENDOR/lib"
+export GDAL_DATA="$APP_VENDOR/share/gdal"
 
 # Bundle workaround
 mkdir -p $BUILD_DIR/.bundle
